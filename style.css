@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #4e4e4e;
 }
 
 header {
     background-color: #c3c3c36d;
     padding: 1.5em;
     box-shadow: 2px 2px 12px #8e8e8eb1;
+    color: #4e4e4e;
 }
+
 
 div {
     display: flex;
@@ -24,23 +25,54 @@ div {
     border: none;
     cursor: pointer;
     border-radius: 2em;
-    margin-top: 18em; 
+    margin-top: 18em;
     width: 10em;
     box-shadow: 2px 2px 10px #8e8e8eb1;
     text-align: center;
+    background-color: #c3c3c3f9;
+    color: #4e4e4e;
 }
 
-div button {
+#btn__clickMe,
+#btn__reset {
     padding: 1.5em;
     border: none;
     cursor: pointer;
     border-radius: 2em;
-    margin-top: 18em; 
+    margin-top: 18em;
     width: 20em;
     box-shadow: 2px 2px 10px #8e8e8eb1;
+    color: #4e4e4e;
+    margin-bottom: 2em;
+}
+
+#btn__reset { 
+    display: none;
+}
+
+#btn__copy {
+    border: none;
+    padding: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    margin-top: 1em;
+    box-shadow: 2px 2px 10px #8e8e8eb1;
+    background-color: #c3c3c3f9;
+    color: #4e4e4e;
+}
+
+#btn__copy:hover,
+#btn__clickMe:hover,
+#btn__reset:hover {
+    background-color: #c3c3c3bb;
 }
 
 footer {
-    margin-top: 2em;
+    margin: 1em 0;
     text-align: center;
+    color: #00000092;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
