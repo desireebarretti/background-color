@@ -68,4 +68,6 @@ div {
 #btn__clickMe:hover,
 #btn__reset:hover {
     background-color: #c3c3c3bb;
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
