@@ -24,12 +24,6 @@ function mudaBack() {
     botaoReset.style.display = 'block'
 }
 
-
-function copiar() {
-   
-    
-}
-
 function reset() {
     location.reload()
 }
