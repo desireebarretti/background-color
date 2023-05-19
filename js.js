@@ -14,23 +14,20 @@ function mudaBack() {
 
     for (let i = 0; i < 6; i++) {
         let colorir = cores[Math.floor(Math.random() * 16)]
-        console.log(colorir)
-
         let imprimir = (codigoHexadecimal.innerHTML = `${hastag += colorir}`)
 
         espaçoMudaCor.style.background = imprimir
-
     }
 
-    botaoCopy.style.display = 'block'
+    botaoCopy.style.display = 'none'
     botaoClick.style.display = 'none'
     botaoReset.style.display = 'block'
-    
 }
 
-function copiarCodigo() {
-    
 
+function copiar() {
+   
+    
 }
 
 function reset() {
